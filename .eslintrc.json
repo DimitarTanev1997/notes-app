@@ -18,6 +18,7 @@
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
+    "ignorePatterns": ["vite.config.ts"],
     "plugins": ["react", "@typescript-eslint", "prettier"],
     "rules": {
         "react/react-in-jsx-scope": "off",
